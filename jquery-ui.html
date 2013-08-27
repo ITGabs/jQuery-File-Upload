@@ -182,7 +182,7 @@
                     <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" data-gallery><img src="{%=file.thumbnailUrl%}"></a>
                 {% } else { %}
                     <!-- hack for preview of mp3 (or audio files) after upload... if(file.???? firefox crash with a mp4 in this tag -->
-					<audio src="{%=file.url%}" controls></audio> 
+                    <audio src="{%=file.url%}" controls></audio> 
                 {% } %}
             </span>
         </td>
